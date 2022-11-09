@@ -1,0 +1,24 @@
+/* Flower Theme 2004 by Martin Hense ::: www.lounge7.de */
+
+body {background: #fff url(blume.jpg) no-repeat; color: #222;}
+
+ul {margin-left: 50px; padding: 0; list-style: circle; }
+ul ul li {list-style: disc;}
+
+div#header, div#footer {color: #BA9384;}
+div#header {background: transparent;}
+div#footer {border-top: 1px solid #999999; background: #FFF0CF;}
+
+
+.slide { font-family: georgia, times, 'Times New Roman', serif;
+  background: transparent url(blumerechts.jpg) right top no-repeat; }
+.slide h1 {top: 35px; left: 60px; color: #4A040A;
+  font: 150%/1em georgia, times, 'Times New Roman', serif;
+  background: transparent; }
+
+div#controls a {background: transparent;  color: #BA9384;}
+
+#currentSlide {color: #646587;
+    font-family: Verdana, Helvetica, sans-serif; font-weight: bold;}
+
+#slide0 h1 {font: 2em georgia, times, 'Times New Roman', serif;}

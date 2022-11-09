@@ -1,0 +1,58 @@
+2021-11-26 11:37:34 9672 1 Status: Resolving address of dev.screencraft.net.au
+2021-11-26 11:37:34 9672 1 Status: Connecting to 223.27.28.247:21...
+2021-11-26 11:37:34 9672 1 Status: Connection established, waiting for welcome message...
+2021-11-26 11:37:34 9672 1 Response: 220 ProFTPD Server (ProFTPD) [223.27.28.247]
+2021-11-26 11:37:34 9672 1 Command: AUTH TLS
+2021-11-26 11:37:35 9672 1 Response: 234 AUTH TLS successful
+2021-11-26 11:37:35 9672 1 Status: Initializing TLS...
+2021-11-26 11:37:35 9672 1 Status: Verifying certificate...
+2021-11-26 11:37:37 9672 1 Status: TLS connection established.
+2021-11-26 11:37:37 9672 1 Command: USER c4wper-ho
+2021-11-26 11:37:37 9672 1 Response: 331 Password required for c4wper-ho
+2021-11-26 11:37:37 9672 1 Command: PASS *********************
+2021-11-26 11:37:37 9672 1 Response: 230 User c4wper-ho logged in
+2021-11-26 11:37:37 9672 1 Command: SYST
+2021-11-26 11:37:37 9672 1 Response: 215 UNIX Type: L8
+2021-11-26 11:37:37 9672 1 Command: FEAT
+2021-11-26 11:37:37 9672 1 Response: 211-Features:
+2021-11-26 11:37:37 9672 1 Response:  AUTH TLS
+2021-11-26 11:37:37 9672 1 Response:  CCC
+2021-11-26 11:37:37 9672 1 Response:  CLNT
+2021-11-26 11:37:37 9672 1 Response:  EPRT
+2021-11-26 11:37:37 9672 1 Response:  EPSV
+2021-11-26 11:37:37 9672 1 Response:  HOST
+2021-11-26 11:37:37 9672 1 Response:  LANG en-AU.UTF-8*
+2021-11-26 11:37:37 9672 1 Response:  MDTM
+2021-11-26 11:37:37 9672 1 Response:  MFF modify;UNIX.group;UNIX.mode;
+2021-11-26 11:37:37 9672 1 Response:  MFMT
+2021-11-26 11:37:37 9672 1 Response:  MLST modify*;perm*;size*;type*;unique*;UNIX.group*;UNIX.groupname*;UNIX.mode*;UNIX.owner*;UNIX.ownername*;
+2021-11-26 11:37:37 9672 1 Response:  PBSZ
+2021-11-26 11:37:37 9672 1 Response:  PROT
+2021-11-26 11:37:37 9672 1 Response:  RANG STREAM
+2021-11-26 11:37:37 9672 1 Response:  REST STREAM
+2021-11-26 11:37:37 9672 1 Response:  SIZE
+2021-11-26 11:37:37 9672 1 Response:  SSCN
+2021-11-26 11:37:37 9672 1 Response:  TVFS
+2021-11-26 11:37:37 9672 1 Response:  UTF8
+2021-11-26 11:37:37 9672 1 Response: 211 End
+2021-11-26 11:37:37 9672 1 Command: CLNT FileZilla
+2021-11-26 11:37:37 9672 1 Response: 200 OK
+2021-11-26 11:37:37 9672 1 Command: OPTS UTF8 ON
+2021-11-26 11:37:37 9672 1 Response: 200 UTF8 set to on
+2021-11-26 11:37:37 9672 1 Command: PBSZ 0
+2021-11-26 11:37:37 9672 1 Response: 200 PBSZ 0 successful
+2021-11-26 11:37:37 9672 1 Command: PROT P
+2021-11-26 11:37:37 9672 1 Response: 200 Protection set to Private
+2021-11-26 11:37:37 9672 1 Status: Logged in
+2021-11-26 11:37:37 9672 1 Status: Retrieving directory listing...
+2021-11-26 11:37:37 9672 1 Command: PWD
+2021-11-26 11:37:37 9672 1 Response: 257 "/" is the current directory
+2021-11-26 11:37:37 9672 1 Command: TYPE I
+2021-11-26 11:37:37 9672 1 Response: 200 Type set to I
+2021-11-26 11:37:37 9672 1 Command: PASV
+2021-11-26 11:37:37 9672 1 Response: 227 Entering Passive Mode (223,27,28,247,207,200).
+2021-11-26 11:37:37 9672 1 Command: MLSD
+2021-11-26 11:37:38 9672 1 Response: 150 Opening BINARY mode data connection for MLSD
+2021-11-26 11:37:38 9672 1 Response: 226 Transfer complete
+2021-11-26 11:37:38 9672 1 Status: Directory listing of "/" successful
+2021-11-26 11:47:37 9672 1 Status: Connection closed by server
